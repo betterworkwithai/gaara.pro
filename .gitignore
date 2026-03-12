@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.venv/
+*.egg-info/
+
+# Environment variables (NUNCA enviar para o GitHub!)
+backend/.env
+
+# Database (dados pessoais)
+backend/*.db
+backend/*.db-journal
+
+# Node.js
+frontend/node_modules/
+frontend/dist/
+
+# OS
+.DS_Store
+Thumbs.db
